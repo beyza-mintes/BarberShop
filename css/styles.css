@@ -27,10 +27,8 @@ h2 {
   font-weight: 700;
   font-size: 42px;
   letter-spacing: 0.05em;
-  text-transform: capitalize;
-  color: #ffffff;
 }
-h2 span {
+.services-prices span {
   text-transform: lowercase;
 }
 h6 {
@@ -60,7 +58,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* position: relative; */
 }
 .header-title {
   min-width: 306px;
@@ -69,7 +66,8 @@ header {
 }
 .header-title-top,
 .about-us-top,
-.services-prices-top {
+.services-prices-top,
+.why-us-top {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -164,6 +162,12 @@ h3 {
   color: rgba(157, 164, 189, 1);
   margin-bottom: 20px;
 }
+.services-prices h2 {
+  color: #ffffff;
+  text-transform: capitalize;
+  width: 232px;
+  height: 98px;
+}
 .price-list {
   width: 100%;
   height: 440px;
@@ -199,4 +203,76 @@ h3 {
 .services-prices .button {
   display: block;
   margin: 0 auto;
+}
+.why-us {
+  width: 100%;
+  padding: 88px 30px 84px 30px;
+}
+.why-us-top {
+  width: 162px;
+  height: 15px;
+  color: #303030;
+}
+.why-us h2 {
+  width: 100%;
+  height: 98px;
+  color: #303030;
+  text-transform: lowercase;
+  margin: 20px 0;
+}
+.why-us span {
+  text-transform: capitalize;
+}
+.why-us p {
+  width: 100%;
+  height: auto;
+}
+.why-us-boxes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+.why-us-boxes-left {
+  margin-top: 44px;
+}
+.why-us-boxes-right {
+  margin-top: 79px;
+}
+.why-us-boxes-left,
+.why-us-boxes-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.box {
+  width: 100%;
+  height: 133px;
+  background-color: #f7f7f7;
+  color: #303030;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.box span {
+  width: 13px;
+  height: 22px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0em;
+  color: #ff6c00;
+  position: relative;
+  top: -27px;
+}
+.box p {
+  width: 122px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 6px;
 }
